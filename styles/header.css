@@ -1,0 +1,126 @@
+.header{
+    height:57px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    background-color: white;
+    top: 0;
+    right:0;
+    left:0;
+    margin-bottom: 20px;
+    z-index: 100;
+    border-bottom: 1px solid rgb(222, 222, 222);
+
+}
+.leftsection{
+    /* background-color: lightblue; */
+    /* width:180px; */
+    display:flex;
+}
+.middlesection{
+    display:flex;
+    /* background-color: lightpink; */
+    flex:1;
+    margin-left:20px;
+    margin-right:20px;
+    max-width:600px;
+    align-items: center;
+    /* gap:10px; */
+}
+.rightsection{
+    display:flex;
+    flex-direction: row;
+     flex-shrink:0;
+    align-items: center;
+    width: 180px;
+}
+.hamburgurmenu{
+    width:26px;
+    align-items: center;
+    margin-left:26px;
+    margin-right:25px;
+}
+.ytlogo{
+    width:100px;
+    align-items: center;
+}
+.searchlogo{
+    width:52px;
+    height:33px;
+    
+    /* margin-left:300px; */
+    
+}
+.searchbutton{
+    height:46px;
+    /* margin-top:2px; */
+    background-color: rgb(240,240,240);
+    border-color:rgb(192,192,192);
+    border-style: solid;
+    /* border-width:1px; */
+    margin-left:-0.89em;
+    border-radius: 2px;
+    box-shadow:inset 1px 2px 3px rgb(0,0,0,0.05);
+    
+
+}.searchbar{
+    flex:1;
+    /* font-size:17px; */
+    font-size:19px;
+    height:40px;
+    /* width: 400px; */
+    width:0;
+    border-color:rgb(192,192,192);
+    border-style: solid;
+    box-shadow:inset 1px 2px 3px rgb(0,0,0,0.05);
+    border-radius: 4px;
+
+}
+.miclogo{
+    width:50px;
+    height:46px;
+    border-radius: 23px;
+    margin-left:12px;
+    margin-top:0px;
+    border:none;
+    background-color: rgb(245,245,245);
+}
+
+.voiceicon{
+    width:30px;
+    margin-top:2px;
+}    
+
+.searchbar::placeholder{
+    padding-left:10px;
+    font-size:19px;
+
+}
+.upload{
+     width:26px;
+    align-items: center;
+    margin-right:22px;
+}
+.profile{
+    height:35px;
+     width:35px;
+     border-radius: 17.5px;
+     /* background-color:none; */
+    align-items: center;
+    margin-right:22px;
+
+}
+.notify{
+     width:26px;
+    align-items: center;
+    margin-right:22px;
+
+}
+.app{
+     width:26px;
+    align-items: center;
+    margin-right:22px;
+
+}
+

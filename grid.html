@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid css</title>
+    </head>
+    <body>
+        <div style="
+        display:grid;
+        grid-template-columns: 100px 100px 100px;
+        margin-top:30px; 
+        margin-bottom:30px;
+        ">
+            <div style="background-color:blue;">
+                div1
+            </div>
+            <div style="background-color:aqua;">
+                div2<p> hello i am V</p>
+            </div>
+        </div>
+        <div style="display:grid;
+        grid-template-columns: 100px 100px 100px;
+        ">
+            <div style="background-color:lightgrey;">
+                div1
+            </div>
+            <div style="background-color:aqua;">
+                div2<p> hello i am V</p>
+            </div>
+            <div style="background-color:lightcyan;">
+                div1
+            </div>
+            <div style="background-color: lightblue;">
+                hello
+            </div>
+        </div>
+
+        <!-- \*third grid*\ -->
+        </div>
+        <div style="display:grid;
+        grid-template-columns: 100px 1fr;
+        margin-top:30px; ">
+            <div style="background-color:lightgrey;">
+                100px
+            </div>
+            <div style="background-color:aqua;">
+                1fr=free space remaining taking up
+            </div>
+            
+        </div>
+        </div>
+        <div style="display:grid;
+        grid-template-columns: 100px 1fr 1fr;
+        margin-top:30px; ">
+            <div style="background-color:lightgrey;">
+                100px
+            </div>
+            <div style="background-color:aqua;">
+                1fr first 
+            </div>
+            <div style="background-color:lightsalmon;">
+                1fr second
+            </div>
+            
+        </div>
+
+        </div>
+        <div style="display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top:30px; 
+        column-gap: 20px;
+        row-gap: 40px;">
+            <div style="background-color:lightgrey; height:200px;">
+                100px
+            </div>
+            <div style="background-color:aqua;">
+                1fr first
+            </div>
+            <div style="background-color:lightsalmon;">
+                1fr second
+            </div>
+            <div style="background-color:aqua;">
+                1fr first
+            </div>
+            <div style="background-color:lightsalmon;">
+                1fr second
+            </div>
+            <div style="background-color:lightgrey; height:200px;">
+                100px
+            </div>
+           
+        </div>
+
+    </body>
+</html>

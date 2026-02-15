@@ -1,0 +1,78 @@
+
+            .video-grid{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap:16px;
+                row-gap:35px;
+                flex:1fr;
+                padding-left: 90px;
+                padding-right: 20px;
+                /* background-color: aliceblue; */
+            }
+            .video-title-grid{
+                display:grid;
+                grid-template-columns:50px 1fr;
+                margin-bottom:10px;
+                /* flex-shrink: 100%; */
+            }
+            
+            .text{
+                /* /* display: inline-block; */
+                width:100%; 
+                font-family: "Roboto",arial;
+                font-size:13px;
+                /* margin-bottom:0px; */
+                width:100%
+                
+            }
+            .channelpic{
+                /* display: inline-block; */
+                width:36px;
+                /* vertical-align: top; */
+                margin-top: 7px;
+                margin-right: 8px;
+                border-radius:200px;
+            }
+           
+            .thumbnail{
+                width:100%;
+                
+                
+
+
+            }
+            .videoauthor,.videostats{
+                font-family:"Roboto",arial; 
+                color:rgb(96,96,96);
+                /* line-height:5px; */
+                margin-top:0;
+                margin-bottom:0;
+            }
+            .videoauthor{
+                margin-bottom:4px;
+        }
+            .searchbar{
+                display: block;
+                
+            }
+            
+            .videotitle{
+                width:auto;
+               margin-bottom:13px;
+                font-size:14px;
+                font-weight: 500;
+                font-family: "Roboto", arial;
+                
+            }
+.time{
+    color:white;
+    background-color: black;
+    position: absolute;
+    bottom:5px;
+    right:5px;
+}
+.thumbnail-row{
+    position: relative;
+}
+            
+        
